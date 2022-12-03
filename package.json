@@ -1,0 +1,37 @@
+{
+  "name": "jacob-dodd-homepage",
+  "version": "1.0.0",
+  "description": "Jacobs portfolio website",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start",
+    "prettier": "prettier --write .",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jacob-Dodd/Jacob-Dodd-Homepage.git"
+  },
+  "keywords": [],
+  "author": "Jacob Dodd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jacob-Dodd/Jacob-Dodd-Homepage/issues"
+  },
+  "homepage": "https://github.com/Jacob-Dodd/Jacob-Dodd-Homepage#readme",
+  "dependencies": {
+    "@chakra-ui/react": "^2.4.2",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "framer-motion": "^7.6.18",
+    "next": "^13.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-next": "^13.0.6",
+    "prettier": "^2.8.0"
+  }
+}
