@@ -8,7 +8,7 @@ function easeOutCirc(x) {
   return Math.sqrt(1 - Math.pow(x - 1, 4))
 }
 
-const amelia3D = () => {
+const Amelia3D = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const refRenderer = useRef()
@@ -124,4 +124,4 @@ const amelia3D = () => {
   )
 }
 
-export default amelia3D
+export default Amelia3D

@@ -7,14 +7,8 @@ import {
   Stack,
   Heading,
   Flex,
-  Menu,
-  MenuItem,
-  MenuList,
-  MenuButton,
-  IconButton,
   useColorModeValue
 } from '@chakra-ui/react'
-import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
 import { RiSoundcloudLine, RiGithubLine } from 'react-icons/ri'
 
@@ -75,7 +69,7 @@ const Navbar = props => {
             Projects
           </LinkItem>
           <LinkItem href="/posts" path={path}>
-            What I'm Reading
+            What I&apos;m Reading
           </LinkItem>
           <LinkItem
             target="_blank"
