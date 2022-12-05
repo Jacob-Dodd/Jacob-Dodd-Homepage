@@ -8,8 +8,7 @@
 <br><br />
 - <img align="left" alt="NextJS" width="30px" style="padding-right:10px;" src="https://seeklogo.com/images/F/framer-motion-logo-DA1E33CAA1-seeklogo.com.png" />[Framer Motion](https://www.framer.com/motion/) - A clean animation library for React
 <br><br />
-- <img align="left" alt="NextJS" width="30px" style="padding-right:10px;" src="https://bachasoftware.com/wp-content/uploads/2020/07/icon_2-1.
-png" />[Three.js](https://threejs.org/) - library for 3D in JavaScript
+- <img align="left" alt="NextJS" width="30px" style="padding-right:10px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Three.js_Icon.svg/1200px-Three.js_Icon.svg.png" />[Three.js](https://threejs.org/) - library for 3D in JavaScript
 
 #
 
