@@ -19,7 +19,7 @@ import {
         <P>
         Advent of Code is a set of small programming puzzles for a variety of 
         skill sets and skill levels that are realsied daily from december 1st leading up to Christmas like an Advent calendar.
-        These problems can be solved in any programming language we'd like to use. I used these as a fun way to brush up on my Python and Rust,
+        These problems can be solved in any programming language we&apos;d like to use. I used these as a fun way to brush up on my Python and Rust,
         While also trying to learn Julia.
         </P>
         <List ml={4} my={4}>
@@ -30,7 +30,7 @@ import {
             </Link>
           </ListItem>
           <ListItem>
-            <Meta>language's Used</Meta>
+            <Meta>language&apos;s Used</Meta>
             <span>Python, Julia, Rust</span>
           </ListItem>
           <ListItem>
