@@ -2,30 +2,36 @@ import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
+import { WorkGridItem } from '../components/grid-item'
 
 import thumbLodus from '../public/images/contents/lodus_01.png'
+import thumbAdvent from '../public/images/contents/AdventThumb.webp'
 
 
 const Posts = () => (
   <Layout title="Posts">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Popular Posts
+        Posts
       </Heading>
 
       <Section delay={0.1}>
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            title="Learn Algo trading"
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <WorkGridItem id="Advent-of-Code-2022" title="Advent of Code 2022" thumbnail={thumbAdvent}>
+            Put a discription here
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="Example2"
+            title="Example2"
             thumbnail={thumbLodus}
-            href="https://algo-trading.readthedocs.io/en/latest/introduction.html"
-          />
-          <GridItem
-            title="Creating A RogueLike in Rust"
-            thumbnail={thumbLodus}
-            href="https://bfnightly.bracketproductions.com/chapter_1.html"
-          />
-        </SimpleGrid>
+          >
+            Music recommendation app for iOS
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
       </Section>
 
       <Section delay={0.3}>
