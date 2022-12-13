@@ -1,11 +1,9 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
-import { WorkGridItem } from '../components/grid-item'
-
-import thumbLodus from '../public/images/contents/lodus_01.png'
+import { PostGridItem } from '../components/grid-item'
 import thumbAdvent from '../public/images/contents/AdventThumb.webp'
+import thumbKani from '../public/images/posts/KaniParse.jpeg'
 
 
 const Posts = () => (
@@ -18,49 +16,30 @@ const Posts = () => (
       <Section delay={0.1}>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="Advent-of-Code-2022" title="Advent of Code 2022" thumbnail={thumbAdvent}>
+          <PostGridItem id="Advent-of-Code-2022" title="Advent of Code 2022" thumbnail={thumbAdvent}>
             Put a discription here
-          </WorkGridItem>
+          </PostGridItem>
         </Section>
         <Section>
-          <WorkGridItem
-            id="Example2"
-            title="Example2"
-            thumbnail={thumbLodus}
+          <PostGridItem
+            id="ChatGPT"
+            title="ChatGPT"
+            thumbnail={thumbKani}
           >
-            Music recommendation app for iOS
-          </WorkGridItem>
+            Learning to Summarize from Human Feedback
+          </PostGridItem>
         </Section>
       </SimpleGrid>
       </Section>
 
       <Section delay={0.3}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            title="PlaceHolder"
-            thumbnail={thumbLodus}
-            href="https://bfnightly.bracketproductions.com/chapter_1.html"
-          />
-          <GridItem
-            title="PlaceHolder"
-            thumbnail={thumbLodus}
-            href="https://bfnightly.bracketproductions.com/chapter_1.html"
-          />
+
         </SimpleGrid>
       </Section>
 
       <Section delay={0.5}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            title="PlaceHolder"
-            thumbnail={thumbLodus}
-            href="https://bfnightly.bracketproductions.com/chapter_1.html"
-          />
-          <GridItem
-            title="PlaceHolder"
-            thumbnail={thumbLodus}
-            href="https://bfnightly.bracketproductions.com/chapter_1.html"
-          />
         </SimpleGrid>
       </Section>
     </Container>

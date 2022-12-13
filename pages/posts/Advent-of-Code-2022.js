@@ -6,7 +6,7 @@ import {
     ListItem,
   } from '@chakra-ui/react'
   import { ExternalLinkIcon } from '@chakra-ui/icons'
-  import { Title, WorkImage, Meta } from '../../components/work'
+  import { Title, PostImage, Meta } from '../../components/posts'
   import P from '../../components/paragraph'
   import Layout from '../../components/layouts/article'
   
@@ -42,8 +42,8 @@ import {
           </ListItem>
         </List>
   
-        <WorkImage src="/images/posts/advent1.png" alt="Lodus" />
-        <WorkImage src="/images/posts/advent2.png" alt="Lodus" />
+        <PostImage src="/images/posts/advent1.png" alt="Lodus" />
+        <PostImage src="/images/posts/advent2.png" alt="Lodus" />
       </Container>
     </Layout>
   )

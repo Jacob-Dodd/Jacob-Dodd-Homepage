@@ -1,9 +1,11 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
-
 import thumbLodus from '../public/images/works/lodus_01.png'
+import thumbKani from '../public/images/posts/KaniParse.jpeg'
+import thumbPersonal from '../public/images/works/personal.png'
+
 
 const Works = () => (
   <Layout title="Works">
@@ -14,44 +16,28 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="Example" title="Example" thumbnail={thumbLodus}>
-            Put a discription here
+          <WorkGridItem id="KaniParse" title="KaniParse" thumbnail={thumbKani}>
+            NLP Command-line tool
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem
-            id="Example2"
-            title="Example2"
+            id="Lodus"
+            title="Lodus"
             thumbnail={thumbLodus}
           >
-            Music recommendation app for iOS
+            Modern E-Learning Platform
           </WorkGridItem>
         </Section>
       </SimpleGrid>
 
-      <Section delay={0.2}>
-        <Divider my={6} />
-
-        <Heading as="h3" fontSize={20} mb={4}>
-          Other Sub-Heading
-        </Heading>
-      </Section>
-
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="Example" title="Example" thumbnail={thumbLodus}>
-            Put a discription here
+          <WorkGridItem id="Homepage-Website" title="Homepage Website" thumbnail={thumbPersonal}>
+            A clean, minimalistic Personal Website 
           </WorkGridItem>
         </Section>
-        <Section>
-          <WorkGridItem
-            id="Example2"
-            title="Example2"
-            thumbnail={thumbLodus}
-          >
-            Music recommendation app for iOS
-          </WorkGridItem>
-        </Section>
+        
 
       </SimpleGrid>
     </Container>

@@ -7,7 +7,6 @@ import {
   Button,
   List,
   ListItem,
-  useColorModeValue,
   chakra
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
@@ -27,23 +26,12 @@ const ProfileImage = chakra(Image, {
 const Home = () => (
   <Layout>
     <Container>
-      <Box
-        borderRadius="lg"
-        mb={6}
-        p={3}
-        textAlign="center"
-        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-        css={{ backdropFilter: 'blur(10px)' }}
-      >
-        Hello, I&apos;m ETA ROLE
-      </Box>
-
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
             Jacob Dodd
           </Heading>
-          <p>ETA ROLE</p>
+          <p>Data Science Student</p>
         </Box>
         <Box
           flexShrink={0}
@@ -74,18 +62,18 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          Who am I?
         </Heading>
         <Paragraph>
-          Need to fill in simple bio/description of myself here{' '}
-          <NextLink href="/works/Example" passHref scroll={false}>
-            <Link>a link to work</Link>
+          A detail-oriented and Self-driven individual who loves {' '}
+          <NextLink href="/posts" passHref scroll={false}>
+            <Link>learning</Link>
           </NextLink>
-          . Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique sem sed dui hendrerit, 
-          eget aliquet felis lacinia. Suspendisse a lorem eu massa laoreet posuere quis eget nibh. Fusce consequat 
-          mollis elementum. Nam cursus, eros at malesuada rutrum, mauris purus viverra nisi, non tristique diam mauris et ipsum. 
-          Nullam viverra, nisi eget lacinia interdum, velit tortor congue orci, eu placerat magna est in dui. Donec sit amet elit 
-          ac neque blandit bibendum sit amet vitae metus.
+          {' '} and experiencing new things. As a Bachelor of Computer Science graduate and current 
+          Master of Data Science student, I have a solid understanding of the technical and theoretical aspects of computer science and data analysis. My time living in Japan 
+          and proficiency in Japanese have also honed my problem-solving abilities and taught me the value of adaptability in a constantly changing field. In my projects, I have utilized
+           a range of programming languages, my favourite being Python, Julia, Rust, and JavaScript, to solve abstract problems and extract insights from complex data-sets. I'm passionate about using my 
+           skills to make data-driven decisions and impactful contributions to interesting projects.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -113,6 +101,10 @@ const Home = () => (
           Completed a Bachelor of Computer Science Program at The Royal Melbourne Institute of Technology (RMIT)
         </BioSection>
         <BioSection>
+          <BioYear>2022</BioYear>
+          Worked as a functional Tester in Japan (Lionbridge)
+        </BioSection>
+        <BioSection>
           <BioYear>2023</BioYear>
           Began a Master&apos;s of Data Science at RMIT
         </BioSection>
@@ -128,7 +120,7 @@ const Home = () => (
           Music
           </Link>
           , Machine Learning,{' '}
-          <Link href="https://LINKTOPROJECT.com" target="_blank">
+          <Link href="https://500px.com/p/jacobdodd56" target="_blank">
           Mountaineering
           </Link>
           , Gardening
