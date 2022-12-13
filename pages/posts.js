@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { PostGridItem } from '../components/grid-item'
 import thumbAdvent from '../public/images/contents/AdventThumb.webp'
-import thumbChatGPT from '../public/images/posts/openai.png'
+import thumbChatGPT from '../public/images/contents/openai.png'
 
 
 const Posts = () => (
