@@ -72,7 +72,7 @@ const Home = () => (
           {' '} and experiencing new things. As a Bachelor of Computer Science graduate and current 
           Master of Data Science student, I have a solid understanding of the technical and theoretical aspects of computer science and data analysis. My time living in Japan 
           and proficiency in Japanese have also honed my problem-solving abilities and taught me the value of adaptability in a constantly changing field. In my projects, I have utilized
-           a range of programming languages, my favourite being Python, Julia, Rust, and JavaScript, to solve abstract problems and extract insights from complex data-sets. I&aposm passionate about using my 
+           a range of programming languages, my favourite being Python, Julia, Rust, and JavaScript, to solve abstract problems and extract insights from complex data-sets. I&apos;m passionate about using my 
            skills to make data-driven decisions and impactful contributions to interesting projects.
         </Paragraph>
         <Box align="center" my={4}>
