@@ -17,7 +17,7 @@ import {
     <Layout title="Homepage Website">
       <Container>
         <Title>
-        Jacob's Homepage Website <Badge>2022</Badge>
+        Jacob&aposs Homepage Website <Badge>2022</Badge>
         </Title>
         <P>
         I spent some time trying to figure out what I wanted for this personal homepage website, I was tempted to try and create a flashy site, with loads of animations 
