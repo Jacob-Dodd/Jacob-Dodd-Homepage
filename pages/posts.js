@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { PostGridItem } from '../components/grid-item'
 import thumbAdvent from '../public/images/contents/AdventThumb.webp'
-import thumbKani from '../public/images/posts/KaniParse.jpeg'
+import thumbChatGPT from '../public/images/posts/openai.png'
 
 
 const Posts = () => (
@@ -24,7 +24,7 @@ const Posts = () => (
           <PostGridItem
             id="ChatGPT"
             title="ChatGPT"
-            thumbnail={thumbKani}
+            thumbnail={thumbChatGPT}
           >
             Learning to Summarize from Human Feedback
           </PostGridItem>
