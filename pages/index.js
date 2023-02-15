@@ -31,7 +31,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Jacob Dodd
           </Heading>
-          <p>Data Science Student</p>
+          <p>Software Engineer | Digital Craftsman</p>
         </Box>
         <Box
           flexShrink={0}
@@ -69,11 +69,10 @@ const Home = () => (
           <NextLink href="/posts" passHref scroll={false}>
             <Link>learning</Link>
           </NextLink>
-          {' '} and experiencing new things. As a Bachelor of Computer Science graduate and current 
-          Master of Data Science student, I have a solid understanding of the technical and theoretical aspects of computer science and data analysis. My time living in Japan 
-          and proficiency in Japanese have also honed my problem-solving abilities and taught me the value of adaptability in a constantly changing field. In my projects, I have utilized
-           a range of programming languages, my favourite being Python, Julia, Rust, and JavaScript, to solve abstract problems and extract insights from complex data-sets. I&apos;m passionate about using my 
-           skills to make data-driven decisions and impactful contributions to interesting projects.
+          {' '} and experiencing new things. As a Bachelor of Computer Science graduate I have a solid understanding of the technical and theoretical aspects of computer science and software engineering. My time living in Japan 
+          and proficiency in Japanese have also honed my problem-solving abilities and taught me the value of adaptability in a constantly changing field. I have demonstrated industry experience in Full-stack web development, 
+          specifically using Javascript, Typescript, React.js, Next.js, Springboot and AWS. In my spare time I enjoy creating NLP tools with Python to help with my foreign language studies. I&apos;m passionate and excited about using my 
+           skills to make impactful contributions to interesting projects.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -97,16 +96,16 @@ const Home = () => (
           Went to highschool in Yokohama(横浜), Japan.
         </BioSection>
         <BioSection>
+          <BioYear>2021</BioYear>
+          Full-stack Developer at Studio Specta
+        </BioSection>
+        <BioSection>
           <BioYear>2022</BioYear>
           Completed a Bachelor of Computer Science Program at The Royal Melbourne Institute of Technology (RMIT)
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
           Worked as a functional Tester in Japan (Lionbridge)
-        </BioSection>
-        <BioSection>
-          <BioYear>2023</BioYear>
-          Began a Master&apos;s of Data Science at RMIT
         </BioSection>
       </Section>
 

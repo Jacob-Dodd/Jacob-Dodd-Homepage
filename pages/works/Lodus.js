@@ -16,11 +16,11 @@ const Work = () => (
       Project Lodus <Badge>2022</Badge>
       </Title>
       <P>
-      Along with a small team over the span of 6 months, I worked to deliver a full MVP of a E-learning platform named Lodus.
-       Our final product was a platform with a React.js/Material-UI frontend end integrated using Axios and postman with a Springboot
-       Backend and DynamoDB database. The platform allowed for user registration, login and validation, Functioning Student and Content Creator
-       Admin pages, courses page, and a drag and drop content editor. Our team utilised agile methodologies in order to split our work into sprints,
-       and deliver a full final MVP to our client on time.
+      Worked as a Freelance contractor to assist in the development of an Online Learning platform. Mainly utilized React.js, Typescript, and Material UI to build up the front end. 
+      And also assisted in the construction and connection of the backend using Springboot, DynamoDB, and Axios. Work was completed remotely using agile methodologies for team communication and organisation.
+      The final MVP allowed for user registration, login and validation, Functioning Student and Content Creator
+      Admin pages, courses page, and a drag and drop content editor. Our team utilised agile methodologies in order to split our work into sprints,
+      and deliver a full final MVP to our client on time.
       </P>
       <List ml={4} my={4}>
         <ListItem>
